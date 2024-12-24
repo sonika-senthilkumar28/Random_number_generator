@@ -1,0 +1,7 @@
+//random number generation program
+
+let ran_num;
+document.getElementById("My_btn").onclick = function(){
+    ran_num = Math.floor(Math.random()*(max-min))+min;
+    document.getElementById("MyLabel").textContent = ran_num;
+};
