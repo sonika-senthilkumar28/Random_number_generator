@@ -1,0 +1,32 @@
+//Html page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="9.random_number.css">
+</head>
+<body>
+    <h1 id="Myh1">Random Numbers</h1>
+    <label id="MyLabel"></label><br>
+    <button id="My_btn">Click Me</button>
+    <script src="9.random_number.js"></script>
+</body>
+</html>
+
+//css page
+
+body{
+    text-align: center;
+}
+#Myh1{
+    text-align: center;
+    text-shadow: 12em;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#My_btn{
+    text-align: center;
+    padding: 15px 20px;
+}
